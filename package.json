@@ -1,0 +1,33 @@
+{
+  "name": "file-uploading",
+  "version": "1.0.0",
+  "description": "use of express mongoose multer ejs bcrypt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandochata/file-uploading.git"
+  },
+  "keywords": [],
+  "author": "Fernando Chata",
+  "license": "NIT License",
+  "bugs": {
+    "url": "https://github.com/fernandochata/file-uploading/issues"
+  },
+  "homepage": "https://github.com/fernandochata/file-uploading#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
